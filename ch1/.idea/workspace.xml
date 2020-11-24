@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="25f041da-5601-40c9-835f-39b23b479bc2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kjXRb4ertQI2XKprLT9OWI9ur4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="Gradle.ReadingListApplicationTests.contextLoads">
+    <configuration name="ReadingListApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ReadingListApplication" />
+      <module name="ch1.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadingListApplicationTests.contextLoads" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.example.ReadingListApplicationTests.contextLoads&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ReadingListApplicationTests.contextLoads" />
+        <item itemvalue="Application.ReadingListApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25f041da-5601-40c9-835f-39b23b479bc2" name="Default Changelist" comment="" />
+      <created>1606214967135</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606214967135</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="427" y="245" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606218820443">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="427" y="245" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.825@0.23.1440.825" timestamp="1606218820443" />
+    <state width="1398" height="215" key="GridCell.Tab.0.bottom" timestamp="1606221395666">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="1398" height="215" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1606221395666" />
+    <state width="1398" height="215" key="GridCell.Tab.0.center" timestamp="1606221395665">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="1398" height="215" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1606221395665" />
+    <state width="1398" height="215" key="GridCell.Tab.0.left" timestamp="1606221395664">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="1398" height="215" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1606221395664" />
+    <state width="1398" height="215" key="GridCell.Tab.0.right" timestamp="1606221395666">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="1398" height="215" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1606221395666" />
+    <state x="221" y="23" width="1024" height="825" key="SettingsEditor" timestamp="1606220958532">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="221" y="23" width="1024" height="825" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1606220958532" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="ch1" type="b2602c69:ProjectViewProjectNode" />
+        <item name="ch1" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+</project>
