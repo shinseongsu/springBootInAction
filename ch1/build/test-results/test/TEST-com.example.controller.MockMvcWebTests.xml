@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.controller.MockMvcWebTests" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-11-26T13:47:15" hostname="macui-MacBookAir.local" time="1.127">
+  <properties/>
+  <testcase name="homePage_unauthenticateUser" classname="com.example.controller.MockMvcWebTests" time="1.127">
+    <failure message="java.lang.AssertionError: Model attribute 'reader'&#10;Expected: same property values as Reader [accountNonExpired: &lt;true&gt;, accountNonLocked: &lt;true&gt;, authorities: &lt;[ROLE_READER]&gt;, credentialsNonExpired: &lt;true&gt;, enabled: &lt;true&gt;, fullname: &quot;CraigWalls&quot;, password: &quot;{noop}password&quot;, username: &quot;admin&quot;]&#10;     but: was null" type="java.lang.AssertionError">java.lang.AssertionError: Model attribute 'reader'
+Expected: same property values as Reader [accountNonExpired: &lt;true&gt;, accountNonLocked: &lt;true&gt;, authorities: &lt;[ROLE_READER]&gt;, credentialsNonExpired: &lt;true&gt;, enabled: &lt;true&gt;, fullname: &quot;CraigWalls&quot;, password: &quot;{noop}password&quot;, username: &quot;admin&quot;]
+     but: was null
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.springframework.test.web.servlet.result.ModelResultMatchers.lambda$attribute$0(ModelResultMatchers.java:60)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:195)
+	at com.example.controller.MockMvcWebTests.homePage_unauthenticateUser(MockMvcWebTests.java:73)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</failure>
+  </testcase>
+  <system-out><![CDATA[22:47:07.219 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.example.controller.MockMvcWebTests]
+22:47:07.229 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+22:47:07.239 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+22:47:07.267 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.controller.MockMvcWebTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+22:47:07.281 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.controller.MockMvcWebTests], using SpringBootContextLoader
+22:47:07.287 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.controller.MockMvcWebTests]: class path resource [com/example/controller/MockMvcWebTests-context.xml] does not exist
+22:47:07.288 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.controller.MockMvcWebTests]: class path resource [com/example/controller/MockMvcWebTestsContext.groovy] does not exist
+22:47:07.289 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.controller.MockMvcWebTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+22:47:07.292 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.controller.MockMvcWebTests]: MockMvcWebTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:47:07.351 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.controller.MockMvcWebTests]
+22:47:07.459 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/mac/Desktop/spring/springbootinAction/ch1/build/classes/java/main/com/example/ReadingListApplication.class]
+22:47:07.462 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.ReadingListApplication for test class com.example.controller.MockMvcWebTests
+22:47:07.619 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.controller.MockMvcWebTests]: using defaults.
+22:47:07.620 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+22:47:07.658 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4b0a72b3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5a67af6c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4b1d5f60, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@29494d77, org.springframework.test.context.support.DirtiesContextTestExecutionListener@314e2d07, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5635f88d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@77f24b74, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@14339208, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@5455b39c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2d5dc80b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@48118f3f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@40bae7e7, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@390a653f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7ad4ff85]
+22:47:07.663 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.controller.MockMvcWebTests]
+22:47:07.664 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.controller.MockMvcWebTests]
+22:47:07.673 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.controller.MockMvcWebTests]
+22:47:07.673 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.controller.MockMvcWebTests]
+22:47:07.674 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.controller.MockMvcWebTests]
+22:47:07.674 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.controller.MockMvcWebTests]
+22:47:07.680 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@21c1584d testClass = MockMvcWebTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@44196507 testClass = MockMvcWebTests, locations = '{}', classes = '{class com.example.ReadingListApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@79e3479c, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2b049f2b, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4eb91b82, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5f42f4d8], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+22:47:07.681 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.controller.MockMvcWebTests]
+22:47:07.682 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.controller.MockMvcWebTests]
+22:47:07.718 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.0.RELEASE)
+
+2020-11-26 22:47:13.809 DEBUG 1892 --- [    Test worker] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'hasRole('READER')', for Ant [pattern='/']
+2020-11-26 22:47:13.813 DEBUG 1892 --- [    Test worker] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'permitAll', for Ant [pattern='/**']
+2020-11-26 22:47:13.826 DEBUG 1892 --- [    Test worker] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2020-11-26 22:47:13.828 DEBUG 1892 --- [    Test worker] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2020-11-26 22:47:13.847  INFO 1892 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@78850cd6, org.springframework.security.web.context.SecurityContextPersistenceFilter@7f8b104, org.springframework.security.web.header.HeaderWriterFilter@4d845b32, org.springframework.security.web.csrf.CsrfFilter@6a1fcbd1, org.springframework.security.web.authentication.logout.LogoutFilter@4de32407, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2e4b5610, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@80457fa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3d3aa922, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@47686ee6, org.springframework.security.web.session.SessionManagementFilter@2b602d36, org.springframework.security.web.access.ExceptionTranslationFilter@4e19d45f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6b8dcf63]
+2020-11-26 22:47:14.667  WARN 1892 --- [    Test worker] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-26 22:47:15.484 DEBUG 1892 --- [    Test worker] w.c.HttpSessionSecurityContextRepository : No HttpSession currently exists
+2020-11-26 22:47:15.485 DEBUG 1892 --- [    Test worker] w.c.HttpSessionSecurityContextRepository : No SecurityContext was available from the HttpSession: null. A new one will be created.
+2020-11-26 22:47:15.491 DEBUG 1892 --- [    Test worker] w.c.HttpSessionSecurityContextRepository : HttpSession being created as SecurityContext is non-default
+2020-11-26 22:47:15.496 DEBUG 1892 --- [    Test worker] w.c.HttpSessionSecurityContextRepository : SecurityContext 'org.springframework.security.core.context.SecurityContextImpl@fe752e38: Authentication: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@fe752e38: Principal: org.springframework.security.core.userdetails.User@36ebcb: Username: user; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_READER; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: ROLE_READER' stored to HttpSession: 'org.springframework.mock.web.MockHttpSession@3d842b92
+2020-11-26 22:47:15.503 DEBUG 1892 --- [    Test worker] o.s.security.web.FilterChainProxy        : / at position 1 of 12 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2020-11-26 22:47:15.507 DEBUG 1892 --- [    Test worker] o.s.security.web.FilterChainProxy        : / at position 2 of 12 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2020-11-26 22:47:15.508 DEBUG 1892 --- [    Test worker] w.c.HttpSessionSecurityContextRepository : Obtained a valid SecurityContext from SPRING_SECURITY_CONTEXT: 'org.springframework.security.core.context.SecurityContextImpl@fe752e38: Authentication: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@fe752e38: Principal: org.springframework.security.core.userdetails.User@36ebcb: Username: user; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_READER; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: ROLE_READER'
+2020-11-26 22:47:15.510 DEBUG 1892 --- [    Test worker] o.s.security.web.FilterChainProxy        : / at position 3 of 12 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2020-11-26 22:47:15.512 DEBUG 1892 --- [    Test worker] o.s.security.web.FilterChainProxy        : / at position 4 of 12 in additional filter chain; firing Filter: 'CsrfFilter'
+2020-11-26 22:47:15.515 DEBUG 1892 --- [    Test worker] o.s.security.web.FilterChainProxy        : / at position 5 of 12 in additional filter chain; firing Filter: 'LogoutFilter'
+2020-11-26 22:47:15.516 DEBUG 1892 --- [    Test worker] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'GET /' doesn't match 'POST /logout'
+2020-11-26 22:47:15.518 DEBUG 1892 --- [    Test worker] o.s.security.web.FilterChainProxy        : / at position 6 of 12 in additional filter chain; firing Filter: 'UsernamePasswordAuthenticationFilter'
+2020-11-26 22:47:15.521 DEBUG 1892 --- [    Test worker] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'GET /' doesn't match 'POST /login'
+2020-11-26 22:47:15.521 DEBUG 1892 --- [    Test worker] o.s.security.web.FilterChainProxy        : / at position 7 of 12 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2020-11-26 22:47:15.527 DEBUG 1892 --- [    Test worker] o.s.s.w.s.HttpSessionRequestCache        : saved request doesn't match
+2020-11-26 22:47:15.527 DEBUG 1892 --- [    Test worker] o.s.security.web.FilterChainProxy        : / at position 8 of 12 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2020-11-26 22:47:15.532 DEBUG 1892 --- [    Test worker] o.s.security.web.FilterChainProxy        : / at position 9 of 12 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2020-11-26 22:47:15.534 DEBUG 1892 --- [    Test worker] o.s.s.w.a.AnonymousAuthenticationFilter  : SecurityContextHolder not populated with anonymous token, as it already contained: 'org.springframework.security.authentication.UsernamePasswordAuthenticationToken@fe752e38: Principal: org.springframework.security.core.userdetails.User@36ebcb: Username: user; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_READER; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: ROLE_READER'
+2020-11-26 22:47:15.536 DEBUG 1892 --- [    Test worker] o.s.security.web.FilterChainProxy        : / at position 10 of 12 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2020-11-26 22:47:15.538 DEBUG 1892 --- [    Test worker] o.s.security.web.FilterChainProxy        : / at position 11 of 12 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2020-11-26 22:47:15.539 DEBUG 1892 --- [    Test worker] o.s.security.web.FilterChainProxy        : / at position 12 of 12 in additional filter chain; firing Filter: 'FilterSecurityInterceptor'
+2020-11-26 22:47:15.541 DEBUG 1892 --- [    Test worker] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/'; against '/'
+2020-11-26 22:47:15.541 DEBUG 1892 --- [    Test worker] o.s.s.w.a.i.FilterSecurityInterceptor    : Secure object: FilterInvocation: URL: /; Attributes: [hasRole('READER')]
+2020-11-26 22:47:15.545 DEBUG 1892 --- [    Test worker] o.s.s.w.a.i.FilterSecurityInterceptor    : Previously Authenticated: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@fe752e38: Principal: org.springframework.security.core.userdetails.User@36ebcb: Username: user; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_READER; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: ROLE_READER
+2020-11-26 22:47:15.554 DEBUG 1892 --- [    Test worker] o.s.s.access.vote.AffirmativeBased       : Voter: org.springframework.security.web.access.expression.WebExpressionVoter@52f7b72b, returned: 1
+2020-11-26 22:47:15.557 DEBUG 1892 --- [    Test worker] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorization successful
+2020-11-26 22:47:15.557 DEBUG 1892 --- [    Test worker] o.s.s.w.a.i.FilterSecurityInterceptor    : RunAsManager did not change Authentication object
+2020-11-26 22:47:15.558 DEBUG 1892 --- [    Test worker] o.s.security.web.FilterChainProxy        : / reached end of additional filter chain; proceeding with original chain
+2020-11-26 22:47:16.382 DEBUG 1892 --- [    Test worker] o.s.s.w.header.writers.HstsHeaderWriter  : Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@287c3edf
+2020-11-26 22:47:16.385 DEBUG 1892 --- [    Test worker] o.s.s.w.a.ExceptionTranslationFilter     : Chain processed normally
+2020-11-26 22:47:16.386 DEBUG 1892 --- [    Test worker] s.s.w.c.SecurityContextPersistenceFilter : SecurityContextHolder now cleared, as request processing completed
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -41,6 +41,10 @@ public class Reader implements UserDetails {
         return "{noop}" + password;
     }
 
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
     // userDetails 메서드
 
     @Override

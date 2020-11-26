@@ -1,0 +1,33 @@
+server:
+  port: 8080
+
+spring:
+  main:
+    show-banner: false
+  thymeleaf:
+    cache: false
+
+# 로깅
+logging:
+  path: /var/logs/
+  file: BookWorm.log
+  level:
+    root: WARN
+    org:
+      springframework:
+        security: DEBUG
+
+amazon:
+  associateId: habuma-20
+
+
+---
+
+spring:
+  profiles: dev
+
+
+---
+
+spring:
+  profiles: prod
