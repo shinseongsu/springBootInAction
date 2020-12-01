@@ -4,19 +4,25 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+import javax.persistence.*;
 import java.util.Date;
 
 @Setter
 @Getter
 @ToString
+@Entity
 public class BoardVO {
 
+    @Id
+    @GeneratedValue
     private int seq;
     private String title;
     private String writer;
     private String content;
-    private Date createDate = new Date();
-    private int cnt = 0;
+
+    @Temporal(value = TemporalType.DATE)
+    private Date createDate;
+    private Long cnt;
 
 
    /* public int getSeq() {
