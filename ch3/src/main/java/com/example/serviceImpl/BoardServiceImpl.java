@@ -24,7 +24,7 @@ public class BoardServiceImpl implements BoardService {
         board.setWriter("테스트");
         board.setContent("테스트 내용입니다................");
         board.setCreateDate(new Date());
-        board.setCnt(0);
+        board.setCnt(0L);
         return board;
     }
 
@@ -38,7 +38,7 @@ public class BoardServiceImpl implements BoardService {
             board.setWriter("테스터");
             board.setContent(i + "번 내용입니다.");
             board.setCreateDate(new Date());
-            board.setCnt(0);
+            board.setCnt(0L);
             boardList.add(board);
         }
         return boardList;
