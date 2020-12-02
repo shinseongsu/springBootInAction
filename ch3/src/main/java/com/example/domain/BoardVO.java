@@ -15,7 +15,7 @@ public class BoardVO {
 
     @Id
     @GeneratedValue
-    private int seq;
+    private Long seq;
     private String title;
     private String writer;
     private String content;
