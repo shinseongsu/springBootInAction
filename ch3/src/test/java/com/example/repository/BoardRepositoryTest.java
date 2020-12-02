@@ -28,4 +28,25 @@ public class BoardRepositoryTest {
         boardRepo.save(board);
     }
 
+    @Test
+    public void testGetBoard() {
+        BoardVO board = boardRepo.findById(1L).get();
+        System.out.println(board.toString());
+    }
+
+    @Test
+    public void testUpdateBoard() {
+        System.out.println("=== 1번 게시글 조회 ===");
+        BoardVO board = boardRepo.findById(1L).get();
+
+        System.out.println("=== 1번 게시글 제목 수정 ===");
+        board.setTitle("제목을 수정했습니다.");
+        boardRepo.save(board);
+    }
+
+    @Test
+    public void testDeleteBoard() {
+        boardRepo.deleteById(1L);
+    }
+
 }
