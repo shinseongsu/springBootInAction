@@ -9,7 +9,7 @@ import java.util.Date;
 
 @Setter
 @Getter
-@ToString
+@ToString(exclude = "member")
 @Entity
 public class BoardVO {
 
@@ -24,6 +24,9 @@ public class BoardVO {
     private Date createDate;
     private Long cnt;
 
+    @ManyToOne
+    @JoinColumn(name = "MEMBER_ID", nullable = false)
+    private MemberVO member;
 
    /* public int getSeq() {
         return seq;
