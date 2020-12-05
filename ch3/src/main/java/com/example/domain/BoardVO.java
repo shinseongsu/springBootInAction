@@ -17,11 +17,16 @@ public class BoardVO {
     @GeneratedValue
     private Long seq;
     private String title;
+
+    @Column(updatable = false)
     private String writer;
     private String content;
 
     @Temporal(value = TemporalType.DATE)
+    @Column(insertable = false, updatable = false, columnDefinition = "timestamp default current_timestamp")
     private Date createDate;
+
+    @Column(insertable = false, updatable = false, columnDefinition = "number default 0")
     private Long cnt;
 
     @ManyToOne
