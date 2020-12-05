@@ -21,7 +21,7 @@ public class MemberVO {
     private String name;
     private String role;
 
-    @OneToMany(mappedBy = "member", fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "member", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     private List<BoardVO> boardList = new ArrayList<BoardVO>();
 
 }
