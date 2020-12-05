@@ -26,9 +26,9 @@ public class BoardController {
         return boardService.getBoard();
     }
 
-    @GetMapping("/getBoardList")
-    public List<BoardVO> getBoardList() {
-        return boardService.getBoardList();
-    }
+//    @GetMapping("/getBoardList")
+//    public List<BoardVO> getBoardList() {
+//        return boardService.getBoardList();
+//    }
 
 }
