@@ -19,18 +19,23 @@ public class BoardViewServiceImpl implements BoardViewService {
     }
 
     public void insertBoard(BoardVO board) {
+        boardRepo.save(board);
     }
 
     public BoardVO getBoard(BoardVO board) {
-        return null;
+        return boardRepo.findById(board.getSeq()).get();
     }
 
     public void updateBoard(BoardVO board) {
+        BoardVO findBoard = boardRepo.findById(board.getSeq()).get();
 
+        findBoard.setTitle(board.getTitle());
+        findBoard.setContent(board.getContent());
+        boardRepo.save(findBoard);
     }
 
     public void deleteBoard(BoardVO board) {
-
+        boardRepo.deleteById(board.getSeq());
     }
 
 }
