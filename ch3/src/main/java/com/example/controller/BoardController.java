@@ -16,15 +16,15 @@ public class BoardController {
     @Autowired
     private BoardService boardService;
 
-    @GetMapping("/hello")
-    public String hello(String name) {
-        return boardService.hello(name);
-    }
+//    @GetMapping("/hello")
+//    public String hello(String name) {
+//        return boardService.hello(name);
+//    }
 
-    @GetMapping("/getBoard")
-    public BoardVO getBoard() {
-        return boardService.getBoard();
-    }
+//    @GetMapping("/getBoard")
+//    public BoardVO getBoard() {
+//        return boardService.getBoard();
+//    }
 
 //    @GetMapping("/getBoardList")
 //    public List<BoardVO> getBoardList() {
