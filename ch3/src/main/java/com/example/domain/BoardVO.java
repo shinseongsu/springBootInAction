@@ -26,7 +26,7 @@ public class BoardVO {
     @Column(insertable = false, updatable = false, columnDefinition = "timestamp default current_timestamp")
     private Date createDate;
 
-    @Column(insertable = false, updatable = false, columnDefinition = "number default 0")
+    @Column(insertable = false, updatable = false, columnDefinition = "int default 0")
     private Long cnt;
 
     @ManyToOne
